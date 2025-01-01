@@ -7,7 +7,13 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-    domains: ['localhost']
+    domains: ['localhost'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
   typescript: {
     ignoreBuildErrors: true
