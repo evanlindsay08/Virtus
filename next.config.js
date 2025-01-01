@@ -17,7 +17,9 @@ const nextConfig = {
   },
   experimental: {
     forceSwcTransforms: true
-  }
+  },
+  poweredByHeader: false,
+  generateEtags: false
 }
 
 module.exports = nextConfig 
