@@ -12,16 +12,7 @@
 body {
   color: var(--primary);
   font-family: 'Inter', sans-serif;
-  background: 
-    linear-gradient(to bottom right, 
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 240, 255, 0.9),
-      rgba(240, 240, 255, 0.9)),
-    linear-gradient(to bottom right,
-      #fff 0%,
-      #ffe5ff 30%,
-      #e5e5ff 70%,
-      #e5ffff 100%);
+  background: linear-gradient(to bottom right, var(--background-start), var(--background-end));
   min-height: 100vh;
   position: relative;
 }
@@ -796,4 +787,53 @@ nav {
 
 .animate-fade-in {
   animation: fade-in 0.2s ease-out forwards;
+}
+
+/* Add these new styles */
+:root {
+  --background-start: #ffffff;
+  --background-end: #f0f0ff;
+  --primary: #000000;
+  --secondary: #666666;
+}
+
+body {
+  background: linear-gradient(to bottom right, var(--background-start), var(--background-end));
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.nav-link {
+  color: var(--secondary);
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.nav-link-active {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  background: var(--primary);
+  color: white;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.social-button:hover {
+  opacity: 0.8;
 }
