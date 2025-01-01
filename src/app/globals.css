@@ -837,3 +837,48 @@ body {
 .social-button:hover {
   opacity: 0.8;
 }
+
+/* Update the button styles */
+.button-primary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  transition: all 0.2s;
+  font-size: 0.95rem;
+  gap: 0.5rem;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 500;
+  min-width: 140px;
+  justify-content: center;
+}
+
+.button-primary:hover {
+  background-color: #1a1a1a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  transition: all 0.2s;
+  font-size: 0.95rem;
+  gap: 0.5rem;
+  background-color: white;
+  color: #000000;
+  font-weight: 500;
+  min-width: 140px;
+  justify-content: center;
+}
+
+.button-secondary:hover {
+  background-color: #f8f8f8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

@@ -43,7 +43,7 @@ export default function NavBar() {
                 Create
               </Link>
               <a 
-                href="https://twitter.com" 
+                href="https://x.com/Virtus_AI" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="nav-link"
@@ -59,7 +59,7 @@ export default function NavBar() {
                 Pump.fun
               </a>
               <a 
-                href="https://github.com" 
+                href="https://github.com/VirtusAi-Tech/Virtus-Primary" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="nav-link"
