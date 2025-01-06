@@ -51,7 +51,7 @@ export default function NavBar() {
                 Twitter
               </a>
               <a 
-                href="https://pump.fun" 
+                href="https://pump.fun/coin/CzMdiBcuVG4K23K2Hn1NWYwV3bPHTkBMnidPJFw2pump" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="nav-link"
