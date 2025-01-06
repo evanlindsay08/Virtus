@@ -41,7 +41,7 @@ export default function Modal({ isOpen, onClose, onViewAgents }) {
           <div className="mb-4 text-4xl">🚀</div>
           <h3 className="text-2xl font-medium mb-2">Coming Soon!</h3>
           <p className="text-gray-600 mb-6">
-            Agent Creation is coming soon! In the meantime, check out our pre-made Virtus agents that showcase the platform's capabilities.
+            Agent Creation is coming soon! In the meantime, check out our pre-made Ventra agents that showcase the platform's capabilities.
           </p>
           
           <div className="flex flex-col gap-3">
@@ -49,7 +49,7 @@ export default function Modal({ isOpen, onClose, onViewAgents }) {
               onClick={onViewAgents}
               className="social-button generate-button w-full justify-center"
             >
-              View Our Virtus Agents
+              View Our Ventra Agents
             </button>
             <button 
               onClick={onClose}

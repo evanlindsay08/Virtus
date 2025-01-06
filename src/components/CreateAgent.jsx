@@ -23,49 +23,49 @@ export default function CreateAgent() {
       icon: '𝕏',
       title: 'Twitter Integration',
       description: 'Post, reply, and interact',
-      price: 'Costs 500 $VIRTUS + 0.15 SOL',
+      price: 'Costs 500 $VENTRA + 0.15 SOL',
       comingSoon: false
     },
     {
       icon: '📱',
       title: 'Telegram Integration',
       description: 'Interact on Telegram',
-      price: 'Costs 500 $VIRTUS',
+      price: 'Costs 500 $VENTRA',
       comingSoon: false
     },
     {
       icon: '🎙️',
       title: 'Voice Generation',
       description: 'Generate voice content',
-      price: 'Costs 500 $VIRTUS + 0.15 SOL',
+      price: 'Costs 500 $VENTRA + 0.15 SOL',
       comingSoon: false
     },
     {
       icon: '🤖',
       title: 'Agent Training',
       description: 'Custom AI training',
-      price: 'Costs 500 $VIRTUS + 0.15 SOL',
+      price: 'Costs 500 $VENTRA + 0.15 SOL',
       comingSoon: 'Available January 2025'
     },
     {
       icon: '💬',
       title: 'Discord Integration',
       description: "Configure your AI agent's Discord presence",
-      price: 'Costs 500 $VIRTUS',
+      price: 'Costs 500 $VENTRA',
       comingSoon: 'Available January 2025'
     },
     {
       icon: '🖼️',
       title: 'Image Generation',
       description: 'Create custom imagery',
-      price: 'Costs 500 $VIRTUS + 0.15 SOL',
+      price: 'Costs 500 $VENTRA + 0.15 SOL',
       comingSoon: 'Available January 2025'
     },
     {
       icon: '🎥',
       title: 'Video Generation',
       description: 'Create video content',
-      price: 'Costs 1,000 $VIRTUS',
+      price: 'Costs 1,000 $VENTRA',
       comingSoon: 'Available January 2025'
     }
   ]
@@ -549,7 +549,7 @@ export default function CreateAgent() {
       
       <div className="max-w-3xl mx-auto">
         <div className="create-agent-card">
-          <h1 className="text-3xl font-medium mb-8">Create Your Virtus Agent</h1>
+          <h1 className="text-3xl font-medium mb-8">Create Your Ventra Agent</h1>
           
           <form onSubmit={handleSubmit} className="space-y-8">
             <div className="grid grid-cols-2 gap-6">
@@ -577,7 +577,7 @@ export default function CreateAgent() {
             </div>
 
             <div className="form-group">
-              <label>VIRTUS AGENT AGE</label>
+              <label>VENTRA AGENT AGE</label>
               <input 
                 type="number"
                 placeholder="Age"
@@ -620,7 +620,7 @@ export default function CreateAgent() {
             </div>
 
             <div className="form-group">
-              <label>VIRTUS AGENT IMAGE</label>
+              <label>VENTRA AGENT IMAGE</label>
               <div className="image-upload-area">
                 <input 
                   type="file"
@@ -699,7 +699,7 @@ export default function CreateAgent() {
             </div>
 
             <button type="submit" className="social-button generate-button w-full justify-center mt-8">
-              Create Virtus Agent
+              Create Ventra Agent
             </button>
           </form>
         </div>
