@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="hero-section">
       <div className="container">
         <div className="hero-content">
-          <div className="tech-label">VIRTUS TECH™</div>
+          <div className="tech-label">VENTRA TECH™</div>
           <h1 className="hero-title">
             Redefining<br />
             The Deployment Of<br />

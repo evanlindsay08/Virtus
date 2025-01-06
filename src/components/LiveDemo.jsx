@@ -22,23 +22,23 @@ export default function LiveDemo() {
 
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-4xl font-medium mb-4">
-            Meet Our Virtus Agents
+            Meet Our Ventra Agents
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Explore our collection of unique Virtus personalities, each with their own expertise and style.
+            Explore our collection of unique Ventra personalities, each with their own expertise and style.
           </p>
           <div className="flex justify-center gap-4">
             <Link 
               href="/agents" 
               className="view-agents-button"
             >
-              View Our Virtus Agents
+              View Our Ventra Agents
             </Link>
             <Link 
               href="/create" 
               className="create-agent-button"
             >
-              Create Virtus Agent
+              Create Ventra Agent
             </Link>
           </div>
         </div>

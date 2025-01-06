@@ -58,7 +58,7 @@ export default function TickerStrip() {
         </div>
         <div className="ticker-item">
           <span className="ticker-label">TICKER</span>
-          <span className="ticker-value">$VIRTUS</span>
+          <span className="ticker-value">$VENTRA</span>
         </div>
         <div className="ticker-item">
           <span className="ticker-label">DEV SUPPLY</span>

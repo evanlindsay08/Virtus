@@ -73,9 +73,9 @@ export default async function AgentsPage() {
   return (
     <div className="container pt-24 pb-12">
       <div className="text-center mb-16">
-        <h1 className="text-4xl font-medium mb-6">Our Virtus Agents</h1>
+        <h1 className="text-4xl font-medium mb-6">Our Ventra Agents</h1>
         <p className="text-secondary text-lg max-w-2xl mx-auto">
-          Explore our collection of unique Virtus personalities
+          Explore our collection of unique Ventra personalities
         </p>
       </div>
 
@@ -93,7 +93,7 @@ export default async function AgentsPage() {
           ))
         ) : (
           <div className="text-center text-secondary py-12 col-span-3">
-            Coming Soon - Be the first to create a Virtus Agent
+            Coming Soon - Be the first to create a Ventra Agent
           </div>
         )}
       </div>

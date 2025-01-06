@@ -554,7 +554,7 @@ export default function CreateAgent() {
           <form onSubmit={handleSubmit} className="space-y-8">
             <div className="grid grid-cols-2 gap-6">
               <div className="form-group">
-                <label>VIRTUS AGENT NAME</label>
+                <label>VENTRA AGENT NAME</label>
                 <input 
                   type="text"
                   placeholder="Agent name"
@@ -651,7 +651,7 @@ export default function CreateAgent() {
 
             <div className="mt-12">
               <h2 className="text-xl font-medium mb-2">Available Features</h2>
-              <p className="text-secondary mb-6">Hold $VIRTUS to unlock advanced features</p>
+              <p className="text-secondary mb-6">Hold $VENTRA to unlock advanced features</p>
               <div className="space-y-4">
                 {features.map((feature, index) => (
                   <div key={index} className="feature-option">
