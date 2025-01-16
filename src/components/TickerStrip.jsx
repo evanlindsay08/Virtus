@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 export default function TickerStrip() {
   const [mounted, setMounted] = useState(false)
   const [showCopyConfirm, setShowCopyConfirm] = useState(false)
-  const contractAddress = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  const contractAddress = "9LrDPfPMjZcwakKxADFSZUeBeJZZ6Wpd7YTjJNs3pump"
 
   useEffect(() => {
     setMounted(true)
