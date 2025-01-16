@@ -20,13 +20,13 @@ export default function NavBar() {
           <nav className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Image
-                src="/ventralogo.png"
-                alt="Ventra Logo"
+                src="/zephry.png"
+                alt="Zephra Logo"
                 width={32}
                 height={32}
                 priority
               />
-              <span className="font-medium text-lg">VENTRA</span>
+              <span className="font-medium text-lg">ZEPHRA</span>
             </Link>
 
             <div className="flex items-center gap-6">
@@ -43,7 +43,7 @@ export default function NavBar() {
                 Create
               </Link>
               <a 
-                href="https://x.com/VentraAI"
+                href="https://x.com/ZephraAI"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="nav-link"
@@ -59,7 +59,7 @@ export default function NavBar() {
                 Pump.fun
               </a>
               <a 
-                href="https://github.com/Ventra-AI/Ventra-AI"
+                href="https://github.com/Zephra-AI/Zephra-AI"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="nav-link"

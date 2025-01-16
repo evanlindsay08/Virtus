@@ -5,10 +5,10 @@ import NavBar from '../components/NavBar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Ventra',
+  title: 'Zephra',
   description: 'Redefining The Deployment Of AI Agents',
   icons: {
-    icon: '/ventrafavicon.png',
+    icon: '/zephryfavicon.png',
   },
 }
 

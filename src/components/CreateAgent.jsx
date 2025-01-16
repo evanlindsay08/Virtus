@@ -23,49 +23,49 @@ export default function CreateAgent() {
       icon: '𝕏',
       title: 'Twitter Integration',
       description: 'Post, reply, and interact',
-      price: 'Costs 500 $VENTRA + 0.15 SOL',
+      price: 'Costs 500 $ZEPHRA + 0.15 SOL',
       comingSoon: false
     },
     {
       icon: '📱',
       title: 'Telegram Integration',
       description: 'Interact on Telegram',
-      price: 'Costs 500 $VENTRA',
+      price: 'Costs 500 $ZEPHRA',
       comingSoon: false
     },
     {
       icon: '🎙️',
       title: 'Voice Generation',
       description: 'Generate voice content',
-      price: 'Costs 500 $VENTRA + 0.15 SOL',
+      price: 'Costs 500 $ZEPHRA + 0.15 SOL',
       comingSoon: false
     },
     {
       icon: '🤖',
       title: 'Agent Training',
       description: 'Custom AI training',
-      price: 'Costs 500 $VENTRA + 0.15 SOL',
+      price: 'Costs 500 $ZEPHRA + 0.15 SOL',
       comingSoon: 'Available January 2025'
     },
     {
       icon: '💬',
       title: 'Discord Integration',
       description: "Configure your AI agent's Discord presence",
-      price: 'Costs 500 $VENTRA',
+      price: 'Costs 500 $ZEPHRA',
       comingSoon: 'Available January 2025'
     },
     {
       icon: '🖼️',
       title: 'Image Generation',
       description: 'Create custom imagery',
-      price: 'Costs 500 $VENTRA + 0.15 SOL',
+      price: 'Costs 500 $ZEPHRA + 0.15 SOL',
       comingSoon: 'Available January 2025'
     },
     {
       icon: '🎥',
       title: 'Video Generation',
       description: 'Create video content',
-      price: 'Costs 1,000 $VENTRA',
+      price: 'Costs 1,000 $ZEPHRA',
       comingSoon: 'Available January 2025'
     }
   ]
@@ -549,12 +549,12 @@ export default function CreateAgent() {
       
       <div className="max-w-3xl mx-auto">
         <div className="create-agent-card">
-          <h1 className="text-3xl font-medium mb-8">Create Your Ventra Agent</h1>
+          <h1 className="text-3xl font-medium mb-8">Create Your Zephra Agent</h1>
           
           <form onSubmit={handleSubmit} className="space-y-8">
             <div className="grid grid-cols-2 gap-6">
               <div className="form-group">
-                <label>VENTRA AGENT NAME</label>
+                <label>ZEPHRA AGENT NAME</label>
                 <input 
                   type="text"
                   placeholder="Agent name"
@@ -577,7 +577,7 @@ export default function CreateAgent() {
             </div>
 
             <div className="form-group">
-              <label>VENTRA AGENT AGE</label>
+              <label>ZEPHRA AGENT AGE</label>
               <input 
                 type="number"
                 placeholder="Age"
@@ -620,7 +620,7 @@ export default function CreateAgent() {
             </div>
 
             <div className="form-group">
-              <label>VENTRA AGENT IMAGE</label>
+              <label>ZEPHRA AGENT IMAGE</label>
               <div className="image-upload-area">
                 <input 
                   type="file"
@@ -651,7 +651,7 @@ export default function CreateAgent() {
 
             <div className="mt-12">
               <h2 className="text-xl font-medium mb-2">Available Features</h2>
-              <p className="text-secondary mb-6">Hold $VENTRA to unlock advanced features</p>
+              <p className="text-secondary mb-6">Hold $ZEPHRA to unlock advanced features</p>
               <div className="space-y-4">
                 {features.map((feature, index) => (
                   <div key={index} className="feature-option">
@@ -699,7 +699,7 @@ export default function CreateAgent() {
             </div>
 
             <button type="submit" className="social-button generate-button w-full justify-center mt-8">
-              Create Ventra Agent
+              Create Zephra Agent
             </button>
           </form>
         </div>
