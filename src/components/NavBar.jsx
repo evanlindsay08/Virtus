@@ -43,7 +43,7 @@ export default function NavBar() {
                 Create
               </Link>
               <a 
-                href="https://x.com/ZephraAI"
+                href="https://x.com/Zephra_AI"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="nav-link"
@@ -59,7 +59,7 @@ export default function NavBar() {
                 Pump.fun
               </a>
               <a 
-                href="https://github.com/Zephra-AI/Zephra-AI"
+                href="https://github.com/ZephraAI/ZephraAI"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="nav-link"
